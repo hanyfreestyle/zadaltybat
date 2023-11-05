@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 08, 2023 at 02:46 PM
+-- Generation Time: Nov 05, 2023 at 01:11 PM
 -- Server version: 10.4.25-MariaDB
 -- PHP Version: 8.1.10
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `onfire_new`
+-- Database: `a_zadaltybat`
 --
 
 --
@@ -26,11 +26,12 @@ SET time_zone = "+00:00";
 --
 
 INSERT INTO `categories` (`id`, `parent_id`, `photo`, `photo_thum_1`, `icon`, `is_active`, `postion`, `created_at`, `updated_at`, `deleted_at`) VALUES
-(1, NULL, 'images/category/1/1696769012_38xGZfq7uTYwlig_.webp', 'images/category/1/1696769013_qlxHOchJt6k2vY8_.webp', NULL, 1, 0, '2023-10-08 07:39:59', '2023-10-08 11:43:33', NULL),
-(2, NULL, 'images/category/2/1696769046_t4wxe39vomlh0DE_.webp', 'images/category/2/1696769046_ppwi3Y19ZvzkaCM_.webp', NULL, 1, 0, '2023-10-08 07:40:10', '2023-10-08 11:44:06', NULL),
-(3, NULL, 'images/category/3/1696769062_CG3Swekd9EA8JE1_.webp', 'images/category/3/1696769062_ATf46UjA6Jtm5fE_.webp', NULL, 1, 0, '2023-10-08 07:40:30', '2023-10-08 11:44:22', NULL),
-(4, NULL, 'images/category/4/1696769080_I2PTFsLPbyZMNuJ_.webp', 'images/category/4/1696769080_CablI9eIEAjbDQR_.webp', NULL, 1, 0, '2023-10-08 07:40:42', '2023-10-08 11:44:40', NULL),
-(5, NULL, 'images/category/5/1696769103_44TWzD4W0MtWICH_.webp', 'images/category/5/1696769103_08oOhMiMwumIzyJ_.webp', NULL, 1, 0, '2023-10-08 07:40:49', '2023-10-08 11:45:03', NULL);
+(1, NULL, 'images/category/1/1699180238_KBzB6dEO9xw07YO_.webp', 'images/category/1/1699180238_6cSvnkt436Gz6gg_.webp', NULL, 1, 1, '2023-11-05 09:25:39', '2023-11-05 10:51:30', NULL),
+(2, NULL, 'images/category/2/1699180988_t96f3qDKZl9Gepc_.webp', 'images/category/2/1699180988_6e04B5hwZRnxsRp_.webp', NULL, 1, 2, '2023-11-05 09:27:41', '2023-11-05 10:51:30', NULL),
+(3, NULL, 'images/category/3/1699180447_Wg75UCNl4DsnYzR_.webp', 'images/category/3/1699180447_PntZKQywOqQNJqt_.webp', NULL, 1, 3, '2023-11-05 09:28:12', '2023-11-05 10:51:30', NULL),
+(4, NULL, 'images/category/4/1699180882_AUcDorP5cPzegNB_.webp', 'images/category/4/1699180882_2S6fZx1rc1Fbj9I_.webp', NULL, 1, 4, '2023-11-05 09:28:40', '2023-11-05 10:51:30', NULL),
+(5, NULL, 'images/category/5/1699181332_CvltMeLBWQAWTeu_.webp', 'images/category/5/1699181332_hyQuSKUlwV4XMQS_.webp', NULL, 1, 6, '2023-11-05 09:28:50', '2023-11-05 10:51:30', NULL),
+(6, NULL, 'images/category/6/1699180727_bIiYvsdnYSsX9YE_.webp', 'images/category/6/1699180727_wDJTLvbakLvQ76K_.webp', NULL, 1, 5, '2023-11-05 09:28:59', '2023-11-05 10:51:30', NULL);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
