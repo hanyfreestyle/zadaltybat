@@ -78,7 +78,16 @@ class ShopProductController extends AdminMainController
 #|||||||||||||||||||||||||||||||||||||| #     index
     public function index()
     {
-       $pageData = $this->pageData;
+
+//        $pros = Product::all();
+//        foreach ($pros as $pro){
+//            $pro->qty_left = 1000;
+//            $pro->qty_max = 100;
+//
+//            $pro->save();
+//        }
+
+        $pageData = $this->pageData;
         $pageData['ViewType'] = "List";
         $pageData['SubView'] = false;
         $pageData['Trashed'] = Product::onlyTrashed()->count();

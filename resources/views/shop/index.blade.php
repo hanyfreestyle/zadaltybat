@@ -45,7 +45,7 @@
             <div class="section MainCategoryListX pb-lg-5">
                 <div class="container">
                     <div class="row">
-                        @if($loop->index == 0 or $loop->index == 2 )
+                        @if($loop->index == 0 or $loop->index == 2 or $loop->index == 4 )
                             <div class="col-xl-3 d-none d-xl-block">
                                 <div class="sale-banner">
                                     <a class="hover_effect1 HomeImageCat" href="{{route('Shop_CategoryView',$MainCategory->slug)}}">
@@ -81,7 +81,7 @@
                             </div>
                         </div>
 
-                            @if($loop->index ==1 or $loop->index == 3 )
+                            @if($loop->index == 1 or $loop->index == 3 or $loop->index == 5 )
                                 <div class="col-xl-3 d-none d-xl-block">
                                     <div class="sale-banner">
                                         <a class="hover_effect1 HomeImageCat" href="{{route('Shop_CategoryView',$MainCategory->slug)}}">

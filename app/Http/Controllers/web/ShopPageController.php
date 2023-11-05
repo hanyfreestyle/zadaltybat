@@ -57,7 +57,8 @@ class ShopPageController extends WebMainController
 
         $MainCategoryPro  = Category::def()->root()
             ->with('recursive_product_shop')
-            ->limit(4)
+            ->orderby('postion')
+            ->limit(5)
             ->get();
         if(isset($_GET['mobile'])){
             Session::put('mobileview',$_GET['mobile']);
