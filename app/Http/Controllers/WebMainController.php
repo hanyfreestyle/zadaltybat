@@ -48,7 +48,7 @@ class WebMainController extends Controller
         $PageView = [
             'selMenu'=>  '',
             'container'=>  webContainer(0), # 'custom-container',
-            'top_search_view'=>1, # 'custom-container',
+            'top_search_view'=>0, # 'custom-container',
             'top_search_view_cat'=> 0, # 'custom-container',
             'PageType'=> 'web',
         ];

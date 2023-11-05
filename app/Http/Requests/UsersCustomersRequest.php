@@ -14,7 +14,7 @@ class UsersCustomersRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'phone'=> "required|numeric|min_digits:11|max_digits:11|exists:users_customers",
+            'phone'=> "required|numeric|min_digits:9|max_digits:9|exists:users_customers",
             'password'=> "required|min:8",
         ];
     }

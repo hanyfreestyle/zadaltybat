@@ -17,7 +17,7 @@ class CustomerSignUpRequest extends FormRequest
     {
         return [
             'name'=> "required|min:4|max:50",
-            'phone'=> "required|numeric|min_digits:11|max_digits:11|unique:users_customers",
+            'phone'=> "required|numeric|min_digits:9|max_digits:9|unique:users_customers",
             'email'=> "nullable|email|unique:users_customers",
             'password'=> "required|min:8|confirmed",
            // 'reg_terms'=> "accepted",

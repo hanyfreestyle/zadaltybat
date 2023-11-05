@@ -1019,6 +1019,7 @@
 
 }
 
+/*
 .product_row .img_div {
     padding: 8px;
     box-shadow: rgba(50, 50, 93, 0.1) 0px 2px 5px -1px, rgba(0, 0, 0, 0.1) 0px 1px 3px -1px;
@@ -1028,7 +1029,15 @@
 .product_row .img_div img{
     max-height:180px;
 }
+*/
 
+
+.product_row .img_div img{
+    padding: 2px;
+    border: 1px solid rgba(0,0,0,.1);
+
+    border-radius: 5px;
+}
 .product_row .pro_info .title a{
     /*color:var(--red)!important*/
 }

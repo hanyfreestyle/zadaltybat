@@ -7,3 +7,34 @@
 .def_color{
     color: var(--def);
 }
+
+
+.order_complete i {
+    color:var(--def)!important;
+
+}
+
+
+.btn-fill-out {
+    border: 1px solid var(--def)!important;
+}
+.btn-fill-out::before,
+.btn-fill-out::after {
+
+    background-color: var(--def)!important;
+
+}
+
+
+.btn-fill-out:hover {
+    color: var(--def)!important;
+}
+
+
+.slider_iconX{
+    border-radius: 50%;
+}
+
+.HomeImageCat img{
+    border-radius: 50%!important;
+}

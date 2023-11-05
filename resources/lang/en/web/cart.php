@@ -23,6 +23,7 @@ return
 	'empty_h1' => 'سلة المشتريات فارغة',
 	'empty_p' => 'اهلا بك فى عتمان جروب استمتع بتجربة تسوق فريدة 
 شحن مجانى داخل الاسكندرية للطلبات فوق 10,000 جنية',
+	'err_no_more_qty' => 'عذرا المخزون لا يسمح',
 	'err_update_need' => '',
 	'off' => 'off',
 	'offer_Already_Sold' => 'Already Sold',
@@ -38,5 +39,4 @@ return
 	't_Quantity' => 'Quantity',
 	't_Remove' => 'Remove',
 	't_Total' => 'Total',
-	'err_no_more_qty' => 'عذرا المخزون لا يسمح',
 ];

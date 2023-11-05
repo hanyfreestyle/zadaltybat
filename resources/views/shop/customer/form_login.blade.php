@@ -32,12 +32,12 @@
 
                                                <div class="form-group mb-3">
                                                    <x-form-input label="{{__('web/customers.reg_form_phone')}}" name="phone" :requiredSpan="true" colrow="col-lg-12"
-                                                                 value="01223129660" inputclass="dir_en" />
+                                                                 value="554064063" inputclass="dir_en" />
                                                </div>
 
                                                <div class="form-group mb-3">
                                                    <x-form-input label="{{__('admin/form.password')}}" name="password" :requiredSpan="true" colrow="col-lg-12"
-                                                                 value="01223129660"  type="password"  :password-edit="false" inputclass="dir_en"/>
+                                                                 value="554064063"  type="password"  :password-edit="false" inputclass="dir_en"/>
                                                </div>
 
                                                <div class="form-group mb-3">

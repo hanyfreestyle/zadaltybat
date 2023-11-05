@@ -73,8 +73,8 @@ class DatabaseSeeder extends Seeder
         $this->call(DataCitySeeder::class);
         $this->call(UsersCustomersSeeder::class);
         $this->call(UsersCustomersAddressSeeder::class);
-
-        $this->call(ShoppingOrderAddressSeeder::class);
+//
+//        $this->call(ShoppingOrderAddressSeeder::class);
 //        $this->call(ShoppingOrderSeeder::class);
 //        $this->call(ShoppingOrderProductSeeder::class);
 //        $this->call(ShoppingOrderLogSeeder::class);

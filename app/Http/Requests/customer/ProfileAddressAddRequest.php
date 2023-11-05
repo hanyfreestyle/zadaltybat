@@ -18,7 +18,7 @@ class ProfileAddressAddRequest extends FormRequest
         return [
             'recipient_name'=> "required|min:4|max:50",
             'city_id'=> "required",
-            'phone'=> "required|numeric|min_digits:11|max_digits:11",
+            'phone'=> "required|numeric|min_digits:9|max_digits:9",
             'phone_option'=> "numeric|min_digits:7|max_digits:11|nullable",
             'address'=> "required|min:15|max:250",
         ];

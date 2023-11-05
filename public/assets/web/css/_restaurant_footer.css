@@ -10,7 +10,7 @@
     .ft-fixed-area{padding-right:25px;padding-left:25px;font-size:16px}
 }
 
-.etman_sticky_navbar.fixed{opacity:1;visibility:visible;transform:translateY(-100%)}
+.etman_sticky_navbar.fixed{opacity:1;visibility:visible;transform:translateY(-100%);z-index: 999999999!important;}
 .etman_sticky_navbar{display:flex;position:fixed;left:0;right:0;top:100%;width:100%;background-color:#fff;border-top:1px solid #e7e7e7;opacity:0;visibility:hidden;transition:all .25s;z-index:9.9E+16}
 .etman_sticky_navbar .sticky-info:not(:last-child){border-left:1px solid #e7e7e7}
 .etman_sticky_navbar .sticky-info{flex:0 0 25%;max-width:25%;padding-top:10px;padding-bottom:10px}

@@ -60,15 +60,15 @@
                                         </div>
 
 
-                                        <div class="form-group col-md-7 mb-3">
-                                            <x-form-input
-                                                label="{{ __('web/customers.Profile_form_company_name') }}"
-                                                name="company_name"
-                                                :requiredSpan="false"
-                                                colrow="col-lg-12"
-                                                value="{{old('company_name',$UserProfile->company_name)}}"
-                                                inputclass="dir_en"/>
-                                        </div>
+{{--                                        <div class="form-group col-md-7 mb-3">--}}
+{{--                                            <x-form-input--}}
+{{--                                                label="{{ __('web/customers.Profile_form_company_name') }}"--}}
+{{--                                                name="company_name"--}}
+{{--                                                :requiredSpan="false"--}}
+{{--                                                colrow="col-lg-12"--}}
+{{--                                                value="{{old('company_name',$UserProfile->company_name)}}"--}}
+{{--                                                inputclass="dir_en"/>--}}
+{{--                                        </div>--}}
 
                                         <div class="form-group col-md-5 mb-3">
                                             <x-form-select-arr-web
