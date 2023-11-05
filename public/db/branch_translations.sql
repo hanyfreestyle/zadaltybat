@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 11, 2023 at 05:01 PM
+-- Generation Time: Nov 05, 2023 at 09:24 AM
 -- Server version: 10.4.25-MariaDB
 -- PHP Version: 8.1.10
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `onfire_new`
+-- Database: `a_zadaltybat`
 --
 
 --
@@ -26,8 +26,7 @@ SET time_zone = "+00:00";
 --
 
 INSERT INTO `branch_translations` (`id`, `branch_id`, `locale`, `title`, `address`, `work_hours`) VALUES
-(1, 1, 'ar', 'المقر الرئيسي', '14 ش خليل بك متفرع من شارع\r\nاسماعيل صبري - الجمرك\r\nالاسكندرية - مصر', 'طول ايام الاسبوع\r\nمن 9 صباحا وحتى 9 مساءا'),
-(2, 2, 'ar', 'المقر الادارى', '336 طريق الجيش امام نادي التجاريين\r\nعمارات رويال بلازا - سابا باشا\r\nالاسكندرية - مصر', 'من السبت الى الخميس\r\n9 صباحا وحتى 5 مساءا');
+(1, 1, 'ar', 'فرع الرياض', '6945 البحر المتوسط، العقيق، الرياض‎\r\nالرياض 13515‎\r\nالسعودية‎', 'من السبت الى الخميس\r\n10:30 صباحا وحتى 2 صباحا \r\nيوم الجمعة \r\n12:30 مساءا وحتى 2 صباحا');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

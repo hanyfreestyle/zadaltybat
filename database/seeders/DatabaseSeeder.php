@@ -59,12 +59,12 @@ class DatabaseSeeder extends Seeder
         $this->call(WebPrivacyTranslationSeeder::class);
 
 
-        $this->call(CategorySeeder::class);
-        $this->call(CategoryTranslationSeeder::class);
-        $this->call(ProductSeeder::class);
-        $this->call(ProductTranslationSeeder::class);
-        $this->call(ProductPhotoSeeder::class);
-        $this->call(CategoryProductSeeder::class);
+//        $this->call(CategorySeeder::class);
+//        $this->call(CategoryTranslationSeeder::class);
+//        $this->call(ProductSeeder::class);
+//        $this->call(ProductTranslationSeeder::class);
+//        $this->call(ProductPhotoSeeder::class);
+//        $this->call(CategoryProductSeeder::class);
 
 
         $this->call(PageSeeder::class);
@@ -75,9 +75,9 @@ class DatabaseSeeder extends Seeder
         $this->call(UsersCustomersAddressSeeder::class);
 
         $this->call(ShoppingOrderAddressSeeder::class);
-        $this->call(ShoppingOrderSeeder::class);
-        $this->call(ShoppingOrderProductSeeder::class);
-        $this->call(ShoppingOrderLogSeeder::class);
+//        $this->call(ShoppingOrderSeeder::class);
+//        $this->call(ShoppingOrderProductSeeder::class);
+//        $this->call(ShoppingOrderLogSeeder::class);
 
 
        $this->call(AppSettingSeeder::class);

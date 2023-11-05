@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 11, 2023 at 05:00 PM
+-- Generation Time: Nov 05, 2023 at 09:28 AM
 -- Server version: 10.4.25-MariaDB
 -- PHP Version: 8.1.10
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `onfire_new`
+-- Database: `a_users`
 --
 
 --
@@ -26,8 +26,7 @@ SET time_zone = "+00:00";
 --
 
 INSERT INTO `branches` (`id`, `phone`, `whatsapp`, `lat`, `long`, `direction`, `is_active`, `postion`) VALUES
-(1, '+2 0100 618 0117\r\n +203 48 67 311\r\n +203 48 15 941', '01006180117', '31.202236', '29.882242', 'https://goo.gl/maps/GTWAx3WN26qAXofy7', 1, 0),
-(2, '+203 58 68 324\r\n +203 58 68 325', NULL, '31.238890', '29.956199', 'https://goo.gl/maps/hjDuzdSQEWuu4tpd8', 1, 0);
+(1, '059-923-0630', NULL, '24.7783135', '46.629138', 'https://www.google.com/maps/dir//%D9%85%D8%B7%D8%B9%D9%85+%D8%B2%D8%A7%D8%AF+%D8%A7%D9%84%D8%B7%D9%8A%D8%A8%D8%A7%D8%AA%E2%80%AD/data=!4m8!4m7!1m0!1m5!1m1!1s0x3e2ee304a73f330d:0x5c64da6668b4ab48!2m2!1d46.6291416!2d24.778314899999998', 1, 0);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
