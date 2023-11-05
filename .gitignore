@@ -9,7 +9,7 @@
 /public/images/*.zip
 /public/images/*.rar
 /storage/*.key
-#/storage/
+/storage/
 /vendor
 .env
 .env.backup
