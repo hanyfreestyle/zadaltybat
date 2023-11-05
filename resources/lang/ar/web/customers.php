@@ -1,0 +1,35 @@
+<?php
+
+return
+[
+	'Profile_AccountDetails' => 'بيانات الحساب',
+	'Profile_Address' => 'العناوين',
+	'Profile_ChangePassword' => 'تغيير كلمة المرور',
+	'Profile_ChangePassword_fr_new' => 'كلمة المرور الجديدة',
+	'Profile_ChangePassword_fr_old' => 'كلمة المرور الحالية',
+	'Profile_OrdersList' => 'الطلبات',
+	'Profile_form_city' => 'المحافظة',
+	'Profile_form_city_sleoption' => 'برجاء تحديد المحافظة',
+	'Profile_form_company_name' => 'الاسم التجارى',
+	'Profile_logout' => 'تسجيل خروج',
+	'Profile_whatsapp' => 'رقم الواتس اب',
+	'land_phone' => 'رقم التليفون الارضى',
+	'login_breadcrumb' => 'تسجيل دخول',
+	'login_but' => 'تسجيل دخول',
+	'login_err_email' => 'البريد المستخدم غير مسجل',
+	'login_err_exists' => 'رقم الهاتف غير مسجل لدينا',
+	'login_have_no' => 'اذا كنت لا تملك حساب بالفعل',
+	'login_sign_up_now' => 'انشاء حساب جديد',
+	'profile_breadcrumb' => 'الملف الشخصي',
+	'reg_Already' => 'اذا كنت تمتلك حساب بالفعل',
+	'reg_Log_in' => 'تسجيل دخول',
+	'reg_breadcrumb' => 'تسجيل عضوية جديدة',
+	'reg_but' => 'تسجيل حساب جديد',
+	'reg_form_confirm_pass' => 'تأكيد كلمة المرور',
+	'reg_form_err' => 'حدث خطاء اثناء عملية التسجيل برجاء المحاولة مرة اخرى 
+او تواصل مع خدمة العملاء فى حالة تكرار الخطاء',
+	'reg_form_name' => 'الاسم',
+	'reg_form_phone' => 'رقم الموبايل',
+	'reg_h1' => 'تسجيل عضوية جديدة',
+	'reg_terms' => 'اوافق على سياسية الاستخدام',
+];

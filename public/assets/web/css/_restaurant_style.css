@@ -1,0 +1,80 @@
+.top_banner_social_icons i{
+font-size: 17px;
+}
+
+.header_logo{max-height:45px;width:auto}
+@media only screen and (min-width: 991px) {
+    .header_logo{max-height:55px;width:auto}
+}
+@media only screen and (max-width:600px) {
+    .header_logo{margin-right: 25px}
+}
+.header_phone_number{font-family:'Poppins',sans-serif!important;font-size:15px;font-weight:700;letter-spacing:1px}
+.contact_phone i {
+    display: inline-block;
+    margin-right: 10px;
+    color: var(--def);
+}
+.navbar .navbar-nav > li > .nav-link{font-size:15px}
+.setActive{background:var(--def);!important;color:#fff!important}
+.side_navbar_toggler i{
+    font-size: 18px;
+    line-height: 20px;
+
+
+
+}
+
+@media only screen and (max-width: 991px) {
+    .web_site_navbar_nav {
+        padding: 10px 10px !important;
+        background-color: #1D1E20!important;
+    }
+    .menu_social_icons i{
+        font-size: 17px;
+        line-height: 1px!important;
+    }
+
+    .web_site_navbar_nav li {
+        display: block;
+        color: #777;
+        position: relative;
+        border-bottom: 1px solid #242527;
+    }
+
+    .web_site_navbar_nav .call_us {
+        display: block;
+        width: 100%;
+        margin-top: 20px;
+        font-size: 18px;
+        font-weight: 500;
+
+        text-align: center;
+        color: #FFF;
+    }
+
+    .web_site_navbar_nav .call_us .header_phone_number{
+        font-size: 18px!important;
+        letter-spacing: 2px;
+    }
+
+    .web_site_navbar_nav .menu_social_icons{
+        width: 100%;
+        margin-top: 20px;
+        padding-top: 15px;
+        border-top: 1px solid #242527;
+    }
+
+    .web_site_navbar_nav .menu_social_icons a{
+        display:inline-block;
+        width: 35px!important;
+        height: 35px!important;
+        border-radius: 50%;
+        font-size: 18px;
+        margin: 2px 3px;
+        line-height: 35px!important;
+
+
+    }
+
+}

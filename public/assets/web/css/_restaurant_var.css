@@ -1,0 +1,9 @@
+:root {
+    --red: #ff5a00;
+    --def: #ff5a00;
+    --white: #ffffff;
+}
+
+.def_color{
+    color: var(--def);
+}
